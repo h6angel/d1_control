@@ -1,0 +1,27 @@
+fake_bspline_to_path_node:
+  ros__parameters:
+    # [FAKE INPUT] TODO: replace with your real EgoPlanner bspline adapter.
+    input_path_topic: /d1_demo/fake_bspline_path
+    output_path_topic: /d1_demo/path
+    output_frame_id: global
+
+path_tracker_node:
+  ros__parameters:
+    pose_topic: /ov_msckf/poseimu
+    path_topic: /d1_demo/path
+    cmd_vel_topic: /d1_demo/cmd_vel_raw
+    control_rate_hz: 20.0
+    lookahead_m: 0.6
+    goal_tolerance_m: 0.15
+    heading_kp: 1.2
+    max_linear_x: 0.25
+    max_angular_z: 0.8
+    pose_timeout_sec: 0.5
+
+d1_user_command_bridge_node:
+  ros__parameters:
+    robot_ns: d15019979
+    input_twist_topic: /d1_demo/cmd_vel_raw
+    output_user_command_topic: ""
+    fsm_mode: loco
+    frame_id: base_link
