@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: d1-nav-demo
+Version: 0.0.1
+Summary: D1 navigation demo: OpenVINS pose to Twist on Ubuntu (D1 maps locally).
+Home-page: UNKNOWN
+Maintainer: robot
+Maintainer-email: robot@localhost
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

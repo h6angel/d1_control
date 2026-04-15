@@ -1,0 +1,132 @@
+[0.331s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.332s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb2a486a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb2a486a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb2a48bb0>)[0m
+[0.566s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.566s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.566s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.566s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.566s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.566s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.566s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/mnt/home/hywork/d1_nav_demo_ros2_ws'
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.567s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'ignore'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'ignore_ament_install'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extensions ['colcon_pkg']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'colcon_pkg'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extensions ['colcon_meta']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'colcon_meta'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extensions ['ros']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'ros'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mFailed to parse potential ROS package manifest in'src/d1_nav_demo': Error(s) in package 'src/d1_nav_demo/package.xml':
+Invalid email "robot@localhost" for person "robot"[0m
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extensions ['cmake', 'python']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'cmake'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'python'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPython package in 'src/d1_nav_demo' passes arguments to the setup() function which requires a different identification extension than 'python'[0m
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extensions ['python_setup_py']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/d1_nav_demo) by extension 'python_setup_py'
+[0.965s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/d1_nav_demo' with type 'python' and name 'd1_nav_demo'[0m
+[0.965s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.972s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.972s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.972s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.972s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.025s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[1.025s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[1.027s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[1.028s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /mnt/home/hywork/d1_nav_demo_ros2_ws/install[0m
+[1.029s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /mnt/home/hywork/catkin_vr/install[0m
+[1.030s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 5 installed packages in /mnt/home/hywork/realsense_ros_ws/install[0m
+[1.030s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /mnt/home/hywork/open_vins/install[0m
+[1.032s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 289 installed packages in /opt/ros/foxy[0m
+[1.034s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'cmake_args' from command line to 'None'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'cmake_target' from command line to 'None'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'd1_nav_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.124s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'd1_nav_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/home/hywork/d1_nav_demo_ros2_ws/build/d1_nav_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo', 'merge_install': False, 'path': '/mnt/home/hywork/d1_nav_demo_ros2_ws/src/d1_nav_demo', 'symlink_install': False, 'test_result_base': None}[0m
+[1.125s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.127s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.127s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/mnt/home/hywork/d1_nav_demo_ros2_ws/src/d1_nav_demo'
+[1.130s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.131s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.131s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.188s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/mnt/home/hywork/d1_nav_demo_ros2_ws/src/d1_nav_demo': PYTHONPATH=/mnt/home/hywork/d1_nav_demo_ros2_ws/build/d1_nav_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/d1_nav_demo build --build-base /mnt/home/hywork/d1_nav_demo_ros2_ws/build/d1_nav_demo/build install --record /mnt/home/hywork/d1_nav_demo_ros2_ws/build/d1_nav_demo/install.log --single-version-externally-managed install_data[0m
+[2.658s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/mnt/home/hywork/d1_nav_demo_ros2_ws/src/d1_nav_demo' returned '0': PYTHONPATH=/mnt/home/hywork/d1_nav_demo_ros2_ws/build/d1_nav_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/d1_nav_demo build --build-base /mnt/home/hywork/d1_nav_demo_ros2_ws/build/d1_nav_demo/build install --record /mnt/home/hywork/d1_nav_demo_ros2_ws/build/d1_nav_demo/install.log --single-version-externally-managed install_data[0m
+[2.667s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo' for CMake module files
+[2.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo' for CMake config files
+[2.671s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/lib'
+[2.672s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/bin'
+[2.672s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/lib/pkgconfig/d1_nav_demo.pc'
+[2.673s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/lib/python3.8/site-packages'
+[2.673s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('d1_nav_demo', 'pythonpath')
+[2.674s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/hook/pythonpath.ps1'
+[2.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/hook/pythonpath.dsv'
+[2.679s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/hook/pythonpath.sh'
+[2.682s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/bin'
+[2.682s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(d1_nav_demo)
+[2.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/package.ps1'
+[2.687s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/package.dsv'
+[2.688s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/package.sh'
+[2.690s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/package.bash'
+[2.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/d1_nav_demo/package.zsh'
+[2.694s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/mnt/home/hywork/d1_nav_demo_ros2_ws/install/d1_nav_demo/share/colcon-core/packages/d1_nav_demo)
+[2.695s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.695s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.696s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.696s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.716s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.716s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.716s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.768s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.770s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/local_setup.ps1'
+[2.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/_local_setup_util_ps1.py'
+[2.776s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/setup.ps1'
+[2.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/local_setup.sh'
+[2.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/_local_setup_util_sh.py'
+[2.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/setup.sh'
+[2.787s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/local_setup.bash'
+[2.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/setup.bash'
+[2.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/local_setup.zsh'
+[2.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/home/hywork/d1_nav_demo_ros2_ws/install/setup.zsh'

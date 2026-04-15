@@ -17,14 +17,14 @@ setup(
     zip_safe=True,
     maintainer="robot",
     maintainer_email="robot@localhost",
-    description="D1 navigation demo: OpenVINS pose to D1 UserCommand.",
+    description="D1 navigation demo: OpenVINS pose to Twist on Ubuntu (D1 maps locally).",
     license="MIT",
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
             "fake_bspline_to_path_node = d1_nav_demo.fake_bspline_to_path_node:main",
             "path_tracker_node = d1_nav_demo.path_tracker_node:main",
-            "d1_user_command_bridge_node = d1_nav_demo.d1_user_command_bridge_node:main",
+            "circle_trajectory_tracker_node = d1_nav_demo.circle_trajectory_tracker_node:main",
         ],
     },
 )
