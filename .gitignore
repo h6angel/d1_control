@@ -1,0 +1,25 @@
+# colcon / ROS2 工作区编译产物（只保留 src 与仓库说明）
+/build/
+/install/
+/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+
+# 编辑器 / 环境
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# conda / venv（若放在仓库内）
+.venv/
+venv/
