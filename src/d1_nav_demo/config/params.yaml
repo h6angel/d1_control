@@ -15,7 +15,11 @@ bspline_trajectory_tracker_node:
     max_angular_z: 1.0
     max_linear_acc: 1.5
     max_angular_acc: 1.0
-    min_speed_for_yaw: 0.05
-    low_speed_angular_cap: 0.35
+    min_speed_for_heading: 0.05
+    min_tracking_linear_x: 0.03
+    heading_stop_for_linear_rad: 1.2
+    lookahead_u: 0.08
+    near_goal_dist_m: 0.05
+    traj_time_scale: 3.0
     anchor_to_current_pose_on_new_traj: true
     anchor_search_samples: 80

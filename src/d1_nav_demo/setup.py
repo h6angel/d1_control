@@ -24,6 +24,7 @@ setup(
         "console_scripts": [
             "circle_trajectory_tracker_node = d1_nav_demo.circle_trajectory_tracker_node:main",
             "bspline_trajectory_tracker_node = d1_nav_demo.bspline_trajectory_tracker_node:main",
+            "bspline_formula_tracker_node = d1_nav_demo.bspline_formula_tracker_node:main",
         ],
     },
 )
