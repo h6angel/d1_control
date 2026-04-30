@@ -1,7 +1,7 @@
 # colcon / ROS2 工作区编译产物（只保留 src 与仓库说明）
-/build/
-/install/
-/log/
+build/
+install/
+log/
 
 # Python
 __pycache__/

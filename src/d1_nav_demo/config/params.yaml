@@ -1,37 +1,21 @@
-# 默认演示：解析圆轨迹 + OpenVINS 位姿 -> cmd_vel（不再依赖 EgoPlanner / B-spline）
-circle_trajectory_tracker_node:
+# B-spline 轨迹跟踪：/planning/bspline + /ov_msckf/poseimu -> /d1_demo/cmd_vel_raw
+bspline_trajectory_tracker_node:
   ros__parameters:
     pose_topic: /ov_msckf/poseimu
+    bspline_topic: /planning/bspline
     cmd_vel_topic: /d1_demo/cmd_vel_raw
-    control_rate_hz: 20.0
-    circle_center_x: 0.0
-    circle_center_y: 0.0
-    circle_radius_m: 1.0
-    clockwise: false
-    nominal_linear_x: 0.2
-    max_linear_x: 0.25
-    max_angular_z: 0.8
-    k_radius: 0.8
-    k_heading: 1.2
+    control_rate_hz: 30.0
     pose_timeout_sec: 0.5
-
-# 可选：若仍要用离散 Path + path_tracker，可单独启动下列参数对应节点
-fake_bspline_to_path_node:
-  ros__parameters:
-    # [FAKE INPUT] TODO: replace with your real EgoPlanner bspline adapter.
-    input_path_topic: /d1_demo/fake_bspline_path
-    output_path_topic: /d1_demo/path
-    output_frame_id: global
-
-path_tracker_node:
-  ros__parameters:
-    pose_topic: /ov_msckf/poseimu
-    path_topic: /d1_demo/path
-    cmd_vel_topic: /d1_demo/cmd_vel_raw
-    control_rate_hz: 20.0
-    lookahead_m: 0.6
-    goal_tolerance_m: 0.15
-    heading_kp: 1.2
-    max_linear_x: 0.25
-    max_angular_z: 0.8
-    pose_timeout_sec: 0.5
+    traj_timeout_sec: 1.0
+    k_x: 1.2
+    k_y: 2.0
+    k_heading: 2.2
+    min_linear_x: 0.0
+    max_linear_x: 1.5
+    max_angular_z: 1.0
+    max_linear_acc: 1.5
+    max_angular_acc: 1.0
+    min_speed_for_yaw: 0.05
+    low_speed_angular_cap: 0.35
+    anchor_to_current_pose_on_new_traj: true
+    anchor_search_samples: 80

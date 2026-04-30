@@ -22,9 +22,8 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "fake_bspline_to_path_node = d1_nav_demo.fake_bspline_to_path_node:main",
-            "path_tracker_node = d1_nav_demo.path_tracker_node:main",
             "circle_trajectory_tracker_node = d1_nav_demo.circle_trajectory_tracker_node:main",
+            "bspline_trajectory_tracker_node = d1_nav_demo.bspline_trajectory_tracker_node:main",
         ],
     },
 )
